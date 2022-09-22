@@ -1,0 +1,78 @@
+# Prerequisites
+*.d
+
+#include <stdio.h>
+#include <iostream>
+using namespace std;
+
+
+int main()
+{
+    int total = 0;
+
+    cout<<"ingresa primer numero del 1 - 7"<<endl;
+    cin>>total;
+
+    if (total == 1)
+    {
+        cout<<"lunes"<<endl;
+    }
+    else if (total == 2)
+        {
+             cout<<"martes"<<endl;
+        }
+    else if (total == 3)
+        {
+             cout<<"miercoles"<<endl;
+        }
+    else if (total == 4)
+        {
+             cout<<"jueves"<<endl;
+        }
+    else if (total == 5)
+        {
+             cout<<"viernes"<<endl;
+        }
+    else if (total == 6)
+        {
+             cout<<"sabado"<<endl;
+        }    
+    else if (total == 7)
+        {cout<<"domingo"<<endl;}    
+    else 
+        {
+             cout<<"no es ningun dia"<<endl;
+        }
+    return 0;
+}
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
